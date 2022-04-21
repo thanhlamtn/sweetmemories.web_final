@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding: 0px;;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+}
+div {
+    display: block;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    width:55%;
+}
+.main-header{
+    flex-direction: column;
+}
+h1.title-header {
+    color:pink;
+    margin:20px 0px;
+}
+a{
+    text-decoration: none;
+}
+.breadcrumb{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 20px 0px;
+}
+.breadcrumb-item{
+    margin-right: 30px;
+}
+.breadcrumb-item-previous{
+    color: rgb(13, 13, 223);
+}
+.breadcrumb-item-current{
+    color:rgb(74, 10, 248);
+}
+.breadcrumb-item-before a{
+    color:rgb(16, 56, 236);
+}
+h3{
+    margin-bottom: 20px;
+    color: pink;
+}
+.account {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+p.login-text {
+    color:black;
+}
+a.login {
+    color:palevioletred;
+}
+.field_input{
+    width: 650px;
+    height: 40px;
+    box-sizing: border-box;
+    border:1px solid #b3e0ff;
+    margin-bottom: 20px;
+}
+.fieldset-flex{
+    display: flex;
+}
+.fieldset-sec input {
+    width:320px;
+    margin-right:10px;
+}
+.fieldset-thirt input {
+    width: 300px;
+}
+input {
+    font-size: 15px;
+    text-align: center;
+}
+.fieldinput-flex {
+    display: flex;
+}
+/*
+.customer_place select{
+    width: 295px;
+    height:30px;
+}
+.Select-district select{
+    width:145px;
+    height:30px;
+}
+*/
+select {
+    width: 295px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.footer {
+    display:flex;
+}
+.previous-link{
+    color:palevioletred;
+    margin-right: 10px;
+}
+#Pay {
+    margin-left: 300px;
+}
+.slide-bar{
+    background-color: pink;
+    width:45%;
+    height:100vh;
+    font-size: large;
+}
+.product {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+img.product_pic{
+    width: 160px;
+    height: 190px;
+}
+.product_code{
+    margin-top: 65px;
+}
+.product_price{
+    margin-top: 65px;
+}
+.temporary{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+.shipping{
+    display:flex;
+    justify-content: space-between;
+}
+.fee {
+    margin:20px 10px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+.cost{
+    display:flex;
+    justify-content: space-between;
+    margin:10px;
+}
+input.buy {
+    width: 300px; 
+    height: 30px;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 25%;
+    margin-top: 20px;
+}
